@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.translator.TranslateActivity" >
+
+    <item
+        android:id="@+id/font_size"
+        android:orderInCategory="100"
+        android:title="@string/font"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_clear_all_black_24dp"
+        >
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item
+                android:id="@+id/small"
+                android:orderInCategory="100"
+                android:title="@string/small"
+                app:showAsAction="always"
+                />
+
+            <item
+                android:id="@+id/big"
+                android:orderInCategory="100"
+                android:title="@string/big"
+                app:showAsAction="always"
+                />
+
+            <item
+                android:id="@+id/very_big"
+                android:orderInCategory="100"
+                android:title="@string/very"
+                app:showAsAction="always"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/about_us"
+        android:orderInCategory="100"
+        android:title="@string/about_us"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_error_black_24dp"
+        />
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="@string/help"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_help_black_24dp"
+        />
+</menu>

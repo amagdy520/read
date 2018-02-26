@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"><![CDATA[Read&Write]]></string>
+    <string name="font">Font Size</string>
+    <string name="about_us">About Us</string>
+    <string name="help">Help</string>
+    <string name="small">Small</string>
+    <string name="big">Big</string>
+    <string name="very">Very Big</string>
+    <string name="help_info">For More Information Please, Call 01091920361</string>
+    <string name="about">This app for Help Blind people in reading and writing</string>
+</resources>

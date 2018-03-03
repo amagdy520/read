@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         InformationDialog about = new InformationDialog();
         about.showDialog(MainActivity.this,"about");
 
-        
+
         TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!textRecognizer.isOperational()) {
             Log.w("MainActivity", "Detector dependencies are not yet available");
